@@ -1,0 +1,89 @@
+2025-03-01 04:32:13: Connected to MongoDB successfully
+2025-03-01 04:32:13: No session file found at C:\Users\Saqlain\Desktop\new latest\activity tracking\employee_session.json
+2025-03-01 04:32:13: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-01 04:32:13: [33mPress CTRL+C to quit[0m
+2025-03-01 04:32:14: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "C:\Users\Saqlain\AppData\Local\Programs\Python\Python313\Lib\site-packages\pynput\_util\win32.py", line 386, in _handler
+    converted = self._convert(code, msg, lpdata)
+  File "C:\Users\Saqlain\AppData\Local\Programs\Python\Python313\Lib\site-packages\pynput\_util\win32.py", line 401, in _convert
+    raise NotImplementedError()
+NotImplementedError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Saqlain\AppData\Local\Programs\Python\Python313\Lib\site-packages\pynput\_util\__init__.py", line 169, in inner
+    return f(self, *args, **kwargs)
+  File "C:\Users\Saqlain\AppData\Local\Programs\Python\Python313\Lib\site-packages\pynput\_util\win32.py", line 390, in _handler
+    self._handle(code, msg, lpdata)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: '_thread._ThreadHandle' object is not callable
+2025-03-01 04:32:51,721: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-01 04:32:51,721: [33mPress CTRL+C to quit[0m
+2025-03-01 04:32:57,215: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "C:\Users\Saqlain\AppData\Local\Programs\Python\Python313\Lib\site-packages\pynput\_util\win32.py", line 386, in _handler
+    converted = self._convert(code, msg, lpdata)
+  File "C:\Users\Saqlain\AppData\Local\Programs\Python\Python313\Lib\site-packages\pynput\_util\win32.py", line 401, in _convert
+    raise NotImplementedError()
+NotImplementedError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Saqlain\AppData\Local\Programs\Python\Python313\Lib\site-packages\pynput\_util\__init__.py", line 169, in inner
+    return f(self, *args, **kwargs)
+  File "C:\Users\Saqlain\AppData\Local\Programs\Python\Python313\Lib\site-packages\pynput\_util\win32.py", line 390, in _handler
+    self._handle(code, msg, lpdata)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: '_thread._ThreadHandle' object is not callable
+2025-03-01 04:34:49,766: 127.0.0.1 - - [01/Mar/2025 04:34:49] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:49,823: 127.0.0.1 - - [01/Mar/2025 04:34:49] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:49,832: 127.0.0.1 - - [01/Mar/2025 04:34:49] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:49,836: 127.0.0.1 - - [01/Mar/2025 04:34:49] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:49,845: 127.0.0.1 - - [01/Mar/2025 04:34:49] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:53,402: 127.0.0.1 - - [01/Mar/2025 04:34:53] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:53,413: 127.0.0.1 - - [01/Mar/2025 04:34:53] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:53,421: 127.0.0.1 - - [01/Mar/2025 04:34:53] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:53,862: 127.0.0.1 - - [01/Mar/2025 04:34:53] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:53,922: 127.0.0.1 - - [01/Mar/2025 04:34:53] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:54,062: 127.0.0.1 - - [01/Mar/2025 04:34:54] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:54,863: 127.0.0.1 - - [01/Mar/2025 04:34:54] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:34:55,067: 127.0.0.1 - - [01/Mar/2025 04:34:55] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:35:15,240: Inactivity logged with ID 67c2483307f5db107abf8b10: {'employee_id': '677c669288989ec0a7fe9b32', 'employee_name': 'Saqlain', 'start_time': '2025-03-01 04:35:05', 'end_time': '2025-03-01 04:35:15', 'duration_seconds': 10, 'reason': 'Meeting: yes ok', 'reason_submitted_time': '2025-03-01 04:35:15', '_id': ObjectId('67c2483307f5db107abf8b10')}
+2025-03-01 04:35:24,644: 127.0.0.1 - - [01/Mar/2025 04:35:24] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:35:24,648: 127.0.0.1 - - [01/Mar/2025 04:35:24] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:35:24,730: 127.0.0.1 - - [01/Mar/2025 04:35:24] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:35:24,747: 127.0.0.1 - - [01/Mar/2025 04:35:24] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:35:28,217: 127.0.0.1 - - [01/Mar/2025 04:35:28] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:35:28,247: 127.0.0.1 - - [01/Mar/2025 04:35:28] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:35:31,320: 127.0.0.1 - - [01/Mar/2025 04:35:31] "OPTIONS /monitor-logout HTTP/1.1" 200 -
+2025-03-01 04:35:31,330: 127.0.0.1 - - [01/Mar/2025 04:35:31] "POST /monitor-logout HTTP/1.1" 200 -
+2025-03-01 04:36:22,228: 127.0.0.1 - - [01/Mar/2025 04:36:22] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:36:22,254: 127.0.0.1 - - [01/Mar/2025 04:36:22] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:36:57,248: Inactivity logged with ID 67c2489907f5db107abf8b11: {'employee_id': '677da3b03db1f947906b85d0', 'employee_name': 'Muhammad saqlain', 'start_time': '2025-03-01 04:36:32', 'end_time': '2025-03-01 04:36:57', 'duration_seconds': 25, 'reason': 'Other: ok bossss', 'reason_submitted_time': '2025-03-01 04:36:57', '_id': ObjectId('67c2489907f5db107abf8b11')}
+2025-03-01 04:38:10,855: Inactivity logged with ID 67c248e207f5db107abf8b12: {'employee_id': '677da3b03db1f947906b85d0', 'employee_name': 'Muhammad saqlain', 'start_time': '2025-03-01 04:37:38', 'end_time': '2025-03-01 04:38:10', 'duration_seconds': 32, 'reason': 'Other: ....................', 'reason_submitted_time': '2025-03-01 04:38:10', '_id': ObjectId('67c248e207f5db107abf8b12')}
+2025-03-01 04:38:20,143: 127.0.0.1 - - [01/Mar/2025 04:38:20] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:38:20,155: 127.0.0.1 - - [01/Mar/2025 04:38:20] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:38:20,224: 127.0.0.1 - - [01/Mar/2025 04:38:20] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:38:20,229: 127.0.0.1 - - [01/Mar/2025 04:38:20] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:38:31,054: 127.0.0.1 - - [01/Mar/2025 04:38:31] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:38:31,089: 127.0.0.1 - - [01/Mar/2025 04:38:31] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:38:31,185: 127.0.0.1 - - [01/Mar/2025 04:38:31] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:38:31,191: 127.0.0.1 - - [01/Mar/2025 04:38:31] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:38:35,078: 127.0.0.1 - - [01/Mar/2025 04:38:35] "OPTIONS /monitor-logout HTTP/1.1" 200 -
+2025-03-01 04:38:35,085: 127.0.0.1 - - [01/Mar/2025 04:38:35] "POST /monitor-logout HTTP/1.1" 200 -
+2025-03-01 04:42:25,906: 127.0.0.1 - - [01/Mar/2025 04:42:25] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:42:25,915: 127.0.0.1 - - [01/Mar/2025 04:42:25] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:43:14,912: Inactivity logged with ID 67c24a1207f5db107abf8b13: {'employee_id': '677da3b03db1f947906b85d0', 'employee_name': 'Muhammad saqlain', 'start_time': '2025-03-01 04:42:38', 'end_time': '2025-03-01 04:43:14', 'duration_seconds': 36, 'reason': 'Official Break: ', 'reason_submitted_time': '2025-03-01 04:43:14', '_id': ObjectId('67c24a1207f5db107abf8b13')}
+2025-03-01 04:43:27,246: 127.0.0.1 - - [01/Mar/2025 04:43:27] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:43:27,248: 127.0.0.1 - - [01/Mar/2025 04:43:27] "OPTIONS /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:43:27,343: 127.0.0.1 - - [01/Mar/2025 04:43:27] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:43:27,363: 127.0.0.1 - - [01/Mar/2025 04:43:27] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:43:31,735: 127.0.0.1 - - [01/Mar/2025 04:43:31] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:43:31,744: 127.0.0.1 - - [01/Mar/2025 04:43:31] "POST /monitor-login HTTP/1.1" 200 -
+2025-03-01 04:43:37,986: 127.0.0.1 - - [01/Mar/2025 04:43:37] "OPTIONS /monitor-logout HTTP/1.1" 200 -
+2025-03-01 04:43:37,996: 127.0.0.1 - - [01/Mar/2025 04:43:37] "POST /monitor-logout HTTP/1.1" 200 -
